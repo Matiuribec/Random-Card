@@ -1,1 +1,26 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+#carta {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#card {
+  max-width: 200px;
+  min-height: 350px;
+  margin: auto;
+  font-size: 2em;
+}
+
+#value {
+  font-size: 4em;
+  text-align: center;
+}
+
+.suit {
+  display: inherit;
+}
+#bottom {
+  transform: rotate(180deg);
+}
+
+.body {
+  background-color: green;
+}
